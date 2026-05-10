@@ -1,28 +1,32 @@
-import { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import CursorPulse from './components/CursorPulse'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+
+import Archive from './components/Archive'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
     <>
       <section id="center">
         <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
+          
+        <CursorPulse />
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+        </main>
+
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+
       </section>
 
       <div className="ticks"></div>
@@ -86,6 +90,10 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+      <section id="spacer"></section>
+      <section>
+        <Archive></Archive>
+      </section>
       <section id="spacer"></section>
     </>
   )
