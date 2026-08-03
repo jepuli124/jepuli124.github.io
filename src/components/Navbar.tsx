@@ -2,13 +2,18 @@ import "../css/Navbar.css";
 
 export default function Navbar() {
   return (
+    
     <nav className="navbar">
-      <div className="logo">MyPortfolio</div>
+      <section>
       <ul>
-        <li><a href="#hero">Home</a></li>
+        <li><a href="#top">Top</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#websites">Websites</a></li>
+        <li><a href="#next-steps">Contact info</a></li>
+        <li><a href="#archive">Archive</a></li>
         {/* <li><a href="#portfolio">Portfolio</a></li> */}
       </ul>
+      </section>
     </nav>
   );
 }

@@ -25,10 +25,9 @@ export const ZigZagGrid: React.FC<Props> = ({ items }) => {
             }}
           >
             {orderedRow.map((item, index) => (
-              <div key={index} className="cell">
+              <section key={index} className="cell" style={{width: "95%", minHeight: "30%", justifyItems: index == 1 ? "left" : "right", alignContent: "center"}}>
                 {item}
-                {index % 2 ? <br />: <></>}
-              </div>
+              </section>
             ))}
           </div>
         );

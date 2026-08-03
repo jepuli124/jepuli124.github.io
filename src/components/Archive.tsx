@@ -5,20 +5,23 @@ interface incomingParams{}
 
 const Archive: React.FC<incomingParams> = () => {
     return (
-    <div>
+    <section id='archive'>
         <h3>Here is archive of my less appealing websites, these aren't worthy of presentation but I like to archive their links here</h3>
           <ZigZagGrid items={[
-            <p>A/B testing site for a UX course (5 min mini site)</p>, 
-            <a href="https://jepuli124.github.io/abtesting/" target="_blank">A/B</a>,
+            <p className='zigzagItem'>A/B testing site for a UX course (5 min mini site)</p>, 
+            <p className='zigzagItem'><a href="https://jepuli124.github.io/abtesting/" target="_blank">A/B</a></p>,
 
-            <p>A site for frontend course, looks awful and is more of a responsibility test but includes a simple text based rp game</p>, 
-            <a href="https://jepuli124.github.io/SDSfrontend2025course/" target="_blank">Prepare your eyes</a>,
+            <p className='zigzagItem'>A site for frontend course, looks awful and is more of a responsibility test but includes a simple text based rp game</p>, 
+            <p className='zigzagItem'><a href="https://jepuli124.github.io/SDSfrontend2025course/" target="_blank">Prepare your eyes</a></p>,
 
-            <p>A site for my cousing asked by his brother, made with love and with ten minutes</p>, 
-            <a href="https://jepuli124.github.io/CityboiDENUHateSite/" target="_blank">Denu site</a>,
+            <p className='zigzagItem'>A site for my cousin asked by his brother, made with love and original with ten minutes and updated multiple times, now a fine site</p>, 
+            <p className='zigzagItem'><a href="https://jepuli124.github.io/CityboiDENUHateSite/" target="_blank">Denu site</a></p>,
+
+            <p className='zigzagItem'>A site for my cousin's gf asked by herself, made with platonic love</p>,
+            <p className='zigzagItem'><a href='https://jepuli124.github.io/s11r1sof1ahatesite/'>s11r1sof1ahatesite</a></p>
           ]}></ZigZagGrid>
           <br />
-    </div>
+    </section>
     )
 }
 
