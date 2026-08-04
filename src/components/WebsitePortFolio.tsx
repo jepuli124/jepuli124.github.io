@@ -17,7 +17,10 @@ const WebsitePortFolio: React.FC<incomingParams> = () => {
 
         <p className='zigzagItem'>A site (WIP)</p>, 
         <p className='zigzagItem'><a href="https://jepuli124.github.io/site/" target="_blank" >The site</a></p>,
-
+        
+        <p className='zigzagItem'>Here goblins can talk to each other in secrets.</p>, 
+        <p className='zigzagItem'><a href="https://jepuli124.github.io/GoblinForum/" target="_blank" >The Goblin Forum</a></p>,
+        
         ]}/>
     </section>
     )
