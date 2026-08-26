@@ -21,7 +21,8 @@
   letter-spacing: 0.18px;
   color-scheme: dark;
   color: var(--text);
-  background: var(--bg);
+  background: #061b2e;
+  background: radial-gradient(circle,rgba(6, 27, 46, 1) 20%, rgba(12, 56, 97, 1) 60%, rgba(164, 87, 199, 1) 90%, rgba(242, 98, 245, 1) 95%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
