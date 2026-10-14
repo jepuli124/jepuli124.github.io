@@ -48,7 +48,9 @@ const Contact: React.FC<incomingParams> = () => {
               </a>
             </li>
             <li>
+              
               <a href="mailto:jepuli124@outlook.com" target="_blank">
+                <img src="/MailIcon.png" alt="" style={{height: "25px", width: "25px"}}/>
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -57,6 +59,20 @@ const Contact: React.FC<incomingParams> = () => {
 
                 </svg>
                 Email
+              </a>
+            </li>
+            <li>
+              <a href="https://patreon.com/MincedMeatGoblin?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink" target="_blank">
+                <img src="/PATREON_SYMBOL_1_BLACK_RGB.png" alt="" style={{height: "25px", width: "25px"}}/>
+                
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+
+                </svg>
+                Patreon
               </a>
             </li>
             
