@@ -17,6 +17,7 @@ import musicPlayer from './hooks/MusicHook'
 
 
 
+
 function App() {
   //const [count, setCount] = useState(0)
   const handleClick = useCallback(() => {
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <>
+
     <div className='content' id='top'>
 
       <Navbar />

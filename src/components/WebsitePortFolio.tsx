@@ -6,7 +6,7 @@ interface incomingParams{}
 const WebsitePortFolio: React.FC<incomingParams> = () => {
     return (
     <section id='websites'>
-        <h2>My github is filled with all kind of projects and here are my better looking websites:</h2>
+        <h3>My github is filled with all kind of projects and here are my better looking websites:</h3>
         <br />    
         <ZigZagGrid items={[
         <p className='zigzagItem'>A site used to inform when I make next party</p>, 
